@@ -1,0 +1,56 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 100px;
+  z-index: 10000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+  background: #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+header .logo {
+  color: #111;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+}
+header .logo span {
+  color: #ff0157;
+}
+header .navigation {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+header .navigation li {
+  list-style: none;
+  margin-left: 30px;
+}
+header .navigation li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 300;
+}
+header .navigation li a:hover {
+  color: #ff0157;
+}
+.banner{
+   background-image: url(../../assets/waffels.jpg);
+   background-size: cover;
+   width: 100%;
+   height: 50vh;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.banner h2{
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+}
